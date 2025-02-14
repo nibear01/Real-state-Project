@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Account</title>
+    <link rel="icon" type="image/x-icon" href="/image/Horizon homes logo.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/77d39445ad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="image/logo-bg-remove.png" alt="Horizon Homes Logo" height="70px" width="70px">
+                <span class="logo-title">Horizon Homes</span>
+            </a>
+
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li>
+                        <a href="index.html" class="navbar-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Rent</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Sell</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Buy</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">About</a>
+                    </li>
+                </ul>
+                
+                <div class="login-container">
+                    <a href="login.html" class="navbar-link">Login</a>
+                    <a href="#" class="navbar-link">Get Started</a>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- main section -->
+    <main>
+
+        <section class="form-container">
+            <div class="form-container-outer">
+                <form action="submit">
+                    <fieldset>
+                        <legend>User Personal Information</legend>
+                        <label for="name">Enter your full name:</label>
+                        <input type="text" id="name" name="name" required />
+                        <label for="email">Enter your email:</label>
+                        <input type="email" id="email" name="email" required />
+                        <label for="password">Enter your password:</label>
+                        <input type="password" id="password" name="pass" required />
+                        <label for="confirmPassword">Confirm your password:</label>
+                        <input type="password" id="confirmPassword" name="confirmPass" required />
+                        <label>Enter your gender:</label>
+                        <div class="gender-group">
+                            <input class="gender" type="radio" name="gender" value="male" id="male" required />
+                            <label for="male">Male</label>
+                            <input class="gender" type="radio" name="gender" value="female" id="female" />
+                            <label for="female">Female</label>
+                            <input class="gender" type="radio" name="gender" value="others" id="others" />
+                            <label for="others">Others</label>
+                        </div>
+                        <label for="dob">Enter your Date of Birth:</label>
+                        <input type="date" id="dob" name="dob" required />
+                        <label for="address">Enter your Address:</label>
+                        <textarea id="address" name="address" required></textarea>
+                        <input type="submit" value="Create account" />
+                    </fieldset>
+                </form>
+            </div> 
+
+        </section>
+
+
+
+
+        <!-- Footer div -->
+        <section class="footer">
+            <div class="footer-container">
+                <div class="logo-address-container">
+                    <img src="image/logo-bg-remove.png" alt="Horizon Homes" class="img-logo">
+                    <h4 class="sp-address-out"><span class="sp-address-in">Horizon Homes Real Estate</span><br>
+                        1234 Skyline Avenue, Suite 567
+                        Downtown Business District
+                        Cityville, ST 98765
+                        United States</h4>
+
+                </div>
+
+                <div class="social-link">
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="contacts">
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <p>Email: contact@horizonhomes.com</p>
+                </div>
+
+            </div>
+            <div class="foot-end">
+                <p>© 2025 Horizon Homes Ltd. All Rights Reserved.</p>
+                <a href="https://github.com/nibear01"><span class="me">created by @nibear01</span></a>
+            </div>
+
+        </section>
+    </main>    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

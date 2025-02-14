@@ -1,0 +1,14 @@
+.footer {
+    padding-block: 270px 0;
+}
+
+.gender-group {
+    display: flex;
+    justify-items: center;
+    gap: 5px;
+}
+
+.gender {
+    height: 20px;
+    width: 20px;
+}
