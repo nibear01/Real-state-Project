@@ -391,7 +391,7 @@
 /* foot-end */
 
 .footer {
-    animation: slide_up 2s ease-in-out;
+/*     animation: slide_up 2s ease-in-out; */
 }
 
 .foot-end {
@@ -403,7 +403,7 @@
     align-items: center;
     background-color: #101616;
     color: white;
-    animation: slide_up 2s ease-in-out;
+/*     animation: slide_up 2s ease-in-out; */
 }
 
 @keyframes slide_up {
